@@ -20,11 +20,13 @@
 			Str = x, f(x) -> g where f'(g) -> x
 			The same valued string will always produce the same shingle value
 			Str = x = y, f(x) = f(y) = g, where x = y
-	MinHash - Hashed signature of a document; It's computed by taking the
+			
+    MinHash - Hashed signature of a document; It's computed by taking the
 			  minimum hashed value for all k hash functions in the
 			  hash family, H.  Once the min hash value is found
 			  then it is appended to the signature.
-	SingleSet - Set of shingles; A single shingle set represents one document
+			  
+    SingleSet - Set of shingles; A single shingle set represents one document
 
 
 https://en.wikipedia.org/wiki/MinHash
