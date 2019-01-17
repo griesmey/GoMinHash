@@ -10,6 +10,8 @@
  signatures can then be compared quickly by counting the ratio
  of components in which the signatures agree over the total number of components.
  MinHash is approx. equal to Jaccard.  We show this in the hash_test unittest file.
+ 
+ 
  Definitions:
     Shingle - unsigned 32 bit integer which represents the id of
               the string hashed
