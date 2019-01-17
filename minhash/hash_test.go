@@ -1,4 +1,4 @@
-package algo
+package minhash
 
 import (
 	"github.com/stretchr/testify/assert"
